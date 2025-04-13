@@ -1,6 +1,5 @@
 import Link from "next/link";
-import styles from '../styles/jersey.module.css'
-;
+import styles from "../../styles/jersey.module.css";
 
 export default function not(){
     return(

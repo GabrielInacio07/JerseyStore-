@@ -6,21 +6,21 @@ let jerseys = [
     tamanho: 'XL',
     preco: 69.99,
     imagem: '/image/bulls.jpeg',
-    rota: '/bulls'
+    rota: '/rotas/bulls'
   },
   {
     nome: 'Los Angeles Lakers',
     tamanho: 'X',
     preco: 99,
     imagem: '/image/lakers.jpeg',
-    rota: '/lakers'
+    rota: '/rotas/lakers'
   },
   {
     nome: 'Milwaukee Bucks',
     tamanho: 'XXL',
     preco: 80,
     imagem: '/image/bucks.jpeg',
-    rota: '/bucks'
+    rota: '/rotas/bucks'
   }
 ];
 

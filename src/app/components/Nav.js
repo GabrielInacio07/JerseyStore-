@@ -9,9 +9,9 @@ export default function Nav() {
       <div className={styles.logo}>🏀 JerseyStore</div>
       <div className={styles.navLinks}>
         <Link href="/">Home</Link>
-        <Link href="/not">Produtos</Link>
-        <Link href="/not">Sobre</Link>
-        <Link href="/not">Contato</Link>
+        <Link href="/rotas/not">Produtos</Link>
+        <Link href="/rotas/not">Sobre</Link>
+        <Link href="/rotas/not">Contato</Link>
       </div>
     </nav>
   );

@@ -13,9 +13,9 @@ export async function POST(req) {
                 { title, unit_price: price, quantity },
             ],
             back_urls: {
-                success: "http://localhost:3000/success",
-                failure: "http://localhost:3000/failure",
-                pending: "http://localhost:3000/pending",
+                success: "http://localhost:3000/rotas/success",
+                failure: "http://localhost:3000/rotas/failure",
+                pending: "http://localhost:3000/rotas/pending",
             },
             auto_return: "approved",
         };

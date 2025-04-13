@@ -1,11 +1,10 @@
 import Link from "next/link";
-import styles from '../styles/jersey.module.css'
-;
+import styles from "../../styles/jersey.module.css";
 
-export default function Pending(){
+export default function Failure(){
     return(
         <div>
-            <h1>Pagamento em Andamento ⏳💳...</h1>  
+            <h1>Falha ao Pagar 🚫💳...</h1>  
             <Link className={styles.link} href='/'>Home 👆</Link>
         </div>
     )

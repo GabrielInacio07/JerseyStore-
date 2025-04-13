@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Nav from "../components/Nav";
-import styles from "../styles/jersey.module.css";
+import Nav from "../../components/Nav";
+import styles from "../../styles/jersey.module.css";
 
 export default function Bulls() {
   return (

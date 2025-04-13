@@ -1,5 +1,5 @@
-import Nav from "../components/Nav";
-import styles from "../styles/jersey.module.css";
+import Nav from "../../components/Nav";
+import styles from "../../styles/jersey.module.css";
 import Link from "next/link";
 
 export default function Bucks() {
