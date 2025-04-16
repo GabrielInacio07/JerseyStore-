@@ -3,7 +3,7 @@
 ![Captura de tela 2025-04-13 183340](https://github.com/user-attachments/assets/45677e29-7e59-4a88-bd9d-ee474034f7cb)
 ![Captura de tela 2025-04-13 133119](https://github.com/user-attachments/assets/e2556074-5c68-49cb-9a1b-e7196d1ba881)
 ![Captura de tela 2025-04-13 132907](https://github.com/user-attachments/assets/4e0b316a-f358-4561-9342-cf2f6ff2d05e)
-![Captura de tela 2025-04-13 132714](https://github.com/user-attachments/assets/af1cc685-61e6-4d6a-91b7-028b136cea04)
+![Captura de tela 2025-04-15 223850](https://github.com/user-attachments/assets/eec1671e-e6a2-4cfb-a8e9-b9ff69130969)
 ![Captura de tela 2025-04-13 132512](https://github.com/user-attachments/assets/5c7c56be-198a-469d-a027-235aa59a5376)
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
