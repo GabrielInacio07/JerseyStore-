@@ -1,5 +1,7 @@
+'use client';
 import Link from "next/link";
-import styles from "../../styles/jersey.module.css";
+import styles from "../../styles/alertCard.module.css";
+import failureStyles from "../../styles/failureAlert.module.css";
 
 export default function Failure() {
   return (
@@ -9,7 +11,7 @@ export default function Failure() {
         <p className={styles.cardText}>
           Infelizmente não foi possível concluir sua compra. 😓
         </p>
-        <div className={styles.failureAlert}>
+        <div className={failureStyles.failureAlert}>
           🚫 Pagamento falhou! Tente novamente.
         </div>
         <Link className={styles.link} href="/">

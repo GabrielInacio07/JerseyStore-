@@ -1,5 +1,7 @@
+'use client';
 import Link from "next/link";
-import styles from "../../styles/jersey.module.css";
+import styles from "../../styles/alertCard.module.css";
+import successStyles from "../../styles/successAlert.module.css";
 
 export default function Success() {
   return (
@@ -9,7 +11,7 @@ export default function Success() {
         <p className={styles.cardText}>
           Valeu por apoiar nosso projeto, sua jersey já está sendo separada! 🔥🏀
         </p>
-        <div className={styles.successAlert}>
+        <div className={successStyles.successAlert}>
           💸 Seu pagamento foi aprovado!
         </div>
         <Link className={styles.link} href="/">

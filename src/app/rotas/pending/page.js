@@ -1,5 +1,7 @@
+'use client';
 import Link from "next/link";
-import styles from "../../styles/jersey.module.css";
+import styles from "../../styles/alertCard.module.css";
+import pendingStyles from "../../styles/pendingAlert.module.css";
 
 export default function Pending() {
   return (
@@ -9,7 +11,7 @@ export default function Pending() {
         <p className={styles.cardText}>
           Estamos aguardando a confirmação do seu pagamento. 🔄
         </p>
-        <div className={styles.pendingAlert}>
+        <div className={pendingStyles.pendingAlert}>
           ⏰ Pagamento em análise!
         </div>
         <Link className={styles.link} href="/">
