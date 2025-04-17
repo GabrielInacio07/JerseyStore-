@@ -1,7 +1,8 @@
 import mercadopago from "mercadopago";
 import { NextResponse } from "next/server";
+
 mercadopago.configure({
-    access_token: 'TEST-7482086814871535-040319-3dbadfbfdf8ba760354e09ffde69f67f-2367498151',
+    access_token: process.env.CHAVE ,
 });
 
 
